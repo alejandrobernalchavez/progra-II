@@ -53,8 +53,11 @@ public class MainActivity extends AppCompatActivity {
     }
     class conversores{
         double[][]Valores={
-                {1,100,39.3701,3.28084,1.193,1.0936133333333,0.001,0.000621371}
-                };
+                //Longitud
+                {1,100,39.3701,3.28084,1.193,1.0936133333333,0.001,0.000621371,0.001,0.000001,0.000000001
+                },
+        //Almacenamiento
+        {1,8,1000*8,Math.pow(1,2)*8,Math.pow(1,3)*8,Math.pow(1,4)*8,Math.pow(1,5)*8,Math.pow(1,6)*8,Math.pow(1,7)*8,};
 
         public double convertir (int opcion,int de,int a,double cantidad){
             return  Valores [opcion][a]/Valores[opcion][de]*cantidad;

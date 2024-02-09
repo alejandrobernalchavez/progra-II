@@ -101,14 +101,14 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="35dp"
                         android:layout_marginLeft="80dp"
-                        android:entries="@array/spnLongitud"/>
+                        android:entries="@array/spnAlmacenamiento"/>
                     <Spinner
                         android:id="@+id/spnAlmacenamientoA"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="75dp"
                         android:layout_marginLeft="80dp"
-                        android:entries="@array/spnLongitud"/>
+                        android:entries="@array/spnAlmacenamiento"/>
                     <EditText
                         android:id="@+id/txtAlmacenamientoCantidad"
                         android:layout_width="match_parent"
