@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">calculadora</string>
+    <string name="app_name">Peliculas</string>
 
     <string-array name="spnopciones">
         <item>Suma</item>
