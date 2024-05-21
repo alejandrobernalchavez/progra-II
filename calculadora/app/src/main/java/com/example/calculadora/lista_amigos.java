@@ -12,3 +12,4 @@ public class lista_amigos extends AppCompatActivity {
         setContentView(R.layout.lista_amigos);
     }
 }
+
